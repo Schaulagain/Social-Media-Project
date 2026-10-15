@@ -1,25 +1,14 @@
 # Social Media App (Laravel)
 
-A small social network built with **Laravel 5.4**, one of my early Laravel projects. The focus was the back end, so the front end is a basic theme.
+A small social network in Laravel 5.4. It was one of my first Laravel projects. I spent my time on the back end, so the front end is just a basic theme.
 
-## Features
+Users can sign up, write posts in categories, like and comment on posts, and send, accept or remove friend requests. You can browse other users' profiles and friend lists.
 
-- Registration and login with Laravel's built-in auth
-- Posts: create, edit, delete and view, organised by **categories**
-- **Likes** and **comments** on posts
-- **Friends:** send requests, accept, remove, and view a user's friend list
-- Browse users and their profiles
-
-## How it's built
-
-- Eloquent models for `User`, `Post`, `Category`, `Comment`, `Like` and `Friend`, with relationships between them
-- Resourceful controllers with `auth` middleware protecting everything that changes data
-- Request validation in the post, comment and category controllers
-- Blade templates for the views
+It uses Eloquent models (`User`, `Post`, `Category`, `Comment`, `Like`, `Friend`), resource controllers, and Blade views. Anything that changes data needs you to be logged in, and the post, comment and category controllers validate their input.
 
 ## Running locally
 
-Needs an old PHP version (Laravel 5.4 runs on PHP 7.0–7.2).
+You need an old PHP version for this. Laravel 5.4 runs on PHP 7.0 to 7.2.
 
 ```sh
 composer install
@@ -28,6 +17,4 @@ php artisan migrate
 php artisan serve
 ```
 
-## Notes
-
-This is an early project, kept for reference. My current Laravel work uses Laravel 9 and later; see [laravel-websocket](https://github.com/Schaulagain/laravel-websocket) and [Todo-App](https://github.com/Schaulagain/Todo-App).
+I'm keeping this one up as an old example. For more recent Laravel code, see [laravel-nepal-payments](https://github.com/Schaulagain/laravel-nepal-payments).
