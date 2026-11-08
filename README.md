@@ -1,6 +1,6 @@
 # Social Media App (Laravel)
 
-A small social network in Laravel 5.4. It was one of my first Laravel projects. I spent my time on the back end, so the front end is just a basic theme.
+A small social network in Laravel 5.4. It was one of my first Laravel projects. I spent most of my time on the back end and kept the front end to a basic theme.
 
 Users can sign up, write posts in categories, like and comment on posts, and send, accept or remove friend requests. You can browse other users' profiles and friend lists.
 
