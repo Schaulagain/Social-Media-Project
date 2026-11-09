@@ -18,3 +18,7 @@ php artisan serve
 ```
 
 I'm keeping this one up as an old example. For more recent Laravel code, see [laravel-nepal-payments](https://github.com/Schaulagain/laravel-nepal-payments).
+
+## How this was built
+
+I wrote the original version myself, back when I was starting out with Laravel. In 2026, AI coding agents (mainly **Claude**, in Claude Code) cleaned it up and wrote this README, and I reviewed their changes.
